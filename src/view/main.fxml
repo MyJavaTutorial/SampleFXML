@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="control.MainController">
+    <children>
+        <Button fx:id="btnExec" defaultButton="true" layoutX="129.0" layoutY="73.0" onAction="#handleBtnExecAction" text="Click Me" />
+        <Label fx:id="lblMessage" layoutX="53.0" layoutY="120" minHeight="16" minWidth="69" prefHeight="17.0" prefWidth="219.0" textAlignment="CENTER" />
+      <Button cancelButton="true" layoutX="246.0" layoutY="24.0" mnemonicParsing="false" onAction="#handleBtnExitAction" text="Exit" />
+    </children>
+</AnchorPane>
